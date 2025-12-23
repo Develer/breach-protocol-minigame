@@ -1,0 +1,27 @@
+// 7-1 Pattern SCSS Architecture
+// Main stylesheet that imports all other stylesheets
+
+// 1. Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+// 2. Vendors
+// @import 'vendors/...';
+
+// 3. Base
+@import 'base/reset';
+@import 'base/typography';
+
+// 4. Layout
+// @import 'layout/...';
+
+// 5. Components
+@import 'components/game';
+
+// 6. Pages
+// @import 'pages/...';
+
+// 7. Themes
+@import 'themes/theme';
+
