@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { Game } from "./components";
 
-function App() {
+export const App = () => {
   return (
-    <></>
+    <main>
+      <Game />
+    </main>
   )
 }
-
-export default App;
